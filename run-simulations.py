@@ -5,7 +5,7 @@ import networkx as nx
 MIN_NUM_OF_NODES = 5        # Smallest number of nodes to simulate
 MAX_NUM_OF_NODES = 100       # Maximum number of nodes to simulate
 STEPS_NUM_OF_NODES = 1      # Number of nodes to jump starting at the minimum
-NUM_OF_SIMULATIONS = 100    # Number of simulations to run for each node number
+NUM_OF_SIMULATIONS = 100000    # Number of simulations to run for each node number
 
 
 def create_graph(nodeNum):
